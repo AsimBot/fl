@@ -449,7 +449,7 @@ class _crack_dev_:
                         except:
                             continue
                     self.fl = []
-                    fori  in self.fs:
+                    for i  in self.fs:
                         try:
                             self.fl.append({"id":i.split("•")[0],"pw":_pass_list_(i.split("•")[1])})
                         except:continue
